@@ -11,5 +11,5 @@ number: with builtins; let
   get-word = rule: elemAt rule 1 ;
   words = map get-word applicable-rules;
 in if length words == 0
- then toString number
- else concatStringsSep "" words
+  then toString number
+  else concatStringsSep "" words
