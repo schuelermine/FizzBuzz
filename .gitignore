@@ -1,2 +1,5 @@
-./Haskell/*.o
-./Haskell/*.hi
+Haskell/Lib.hi
+Haskell/Lib.o
+Haskell/Main.hi
+Haskell/Main.o
+Haskell/Main
